@@ -1,12 +1,22 @@
 
 public class AdvancedAstrology {
 
-    public static void printStars(int number) {
+    public static String printStars(int number) {
         // part 1 of the exercise
+        String returnString = "";
+        for(int i = 0; i < number; i++){
+            returnString += "*";
+        }
+        return returnString;
     }
 
-    public static void printSpaces(int number) {
+    public static String printSpaces(int number) {
         // part 1 of the exercise
+        String returnString = "";
+        for(int i = 0; i < number; i++){
+            returnString += " ";
+        }
+        return returnString;    
     }
 
     public static void printTriangle(int size) {
